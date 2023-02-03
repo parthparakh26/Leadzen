@@ -1,0 +1,34 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page-item {
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  .page-link {
+    background-color: lightgray;
+    border-radius: none;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+    font-family: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-weight: 500;
+  }
+  
+  .page-link:hover {
+    background-color: gray;
+  }
+  
+  .active .page-link {
+    background-color: red;
+    color: white;
+  }
+  
